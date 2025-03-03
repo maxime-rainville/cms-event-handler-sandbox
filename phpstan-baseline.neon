@@ -1,0 +1,6 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Call to an undefined method SilverStripe\\\\Security\\\\Member\\:\\:setPassword\\(\\)\\.$#"
+			count: 1
+			path: app/src/MemberListenerLoader.php

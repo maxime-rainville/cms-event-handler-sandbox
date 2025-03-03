@@ -1,0 +1,10 @@
+---
+Name: revolt-event-dispatcher
+---
+SilverStripe\ORM\DataObject:
+  extensions:
+    - ArchiPro\Silverstripe\EventDispatcher\Extension\EventDispatchExtension
+
+ArchiPro\Silverstripe\EventDispatcher\Service\EventService:
+  loaders:
+    - MemberListenerLoader

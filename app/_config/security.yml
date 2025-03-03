@@ -1,0 +1,7 @@
+---
+After: '#canonicalurls'
+---
+SilverStripe\Core\Injector\Injector:
+  SilverStripe\Control\Middleware\CanonicalURLMiddleware:
+    properties:
+      ForceSSL: true

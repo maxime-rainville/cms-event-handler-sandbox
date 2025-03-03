@@ -1,0 +1,9 @@
+parameters:
+    level: 5
+    paths:
+        - app/src
+    excludePaths:
+        - app/src/Page.php
+        - app/src/PageController.php
+    checkMissingIterableValueType: false
+    treatPhpDocTypesAsCertain: false
